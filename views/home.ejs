@@ -1,0 +1,67 @@
+<%- include('partials/header') %>
+
+<head>
+    <style>
+        body {
+            background-color: #E8ECEF; /* Grey background */
+            margin: 0;
+            height: 100vh; /* Full viewport height */
+            display: flex; /* Flexbox layout for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            font-family: Arial, sans-serif;
+        }
+
+        .centered {
+            text-align: center; /* Center the text */
+            padding: 20px;
+            
+            border-radius: 10px; /* Smooth corners */
+            
+        }
+
+        .jumbotron {
+            background: none;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px; /* Limit content width */
+        }
+
+        .btn {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .btn-light {
+            background-color: #f8f9fa;
+            color: #000;
+        }
+
+        .btn-dark {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<div class="centered">
+    <div class="container">
+        <i class="fas fa-key fa-6x"></i>
+        <h1 class="display-3">Secrets</h1>
+        <p class="lead">Don't keep your secrets, share them anonymously!</p>
+        <hr>
+        <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+        <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+    </div>
+</div>
+
+<%- include('partials/footer') %>

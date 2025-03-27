@@ -1,0 +1,32 @@
+body {
+    background-color: #E8ECEF; /* Light grey background */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Optional: Add a clean font */
+    height: 100vh; /* Ensure the body spans the full viewport */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.secret-text {
+    text-align: center; /* Center align text */
+    font-size: 2rem; /* Increase text size for visibility */
+    color: #fff; /* White text for better contrast */
+    background-color: #000; /* Black background for emphasis */
+    padding: 20px 40px; /* Add padding for better spacing */
+    border-radius: 15px; /* Rounded corners for a modern look */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 80%; /* Ensure content doesn't overflow */
+}
+
+.centered {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center-align text */
+    gap: 20px; /* Add space between items */
+}
+
+
+
